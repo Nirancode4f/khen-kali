@@ -17,6 +17,3 @@ kali-desktop-xfce
 
 # Kali applications
 #<package>
-nodejs 
-tree
-golang
