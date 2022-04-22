@@ -12,7 +12,7 @@ KALI_VARIANT="default"
 IMAGE_TYPE="live"
 TARGET_DIR="$(dirname $0)/images"
 TARGET_SUBDIR=""
-SUDO="sudo"
+SUDO="khen"
 VERBOSE=""
 DEBUG=""
 HOST_ARCH=$(dpkg --print-architecture)
@@ -136,8 +136,8 @@ print_help() {
 	exit 0
 }
 
-# Allowed command line options
-. $(dirname $0)/.getopt.sh
+# Allowe command line options
+. khen-kali/.getopt.sh
 
 BUILD_LOG="$(pwd)/build.log"
 debug "BUILD_LOG: $BUILD_LOG"
