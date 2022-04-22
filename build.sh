@@ -28,6 +28,7 @@ image_name() {
 	esac
 }
 
+#nothing 
 live_image_name() {
 	case "$KALI_ARCH" in
 		i386|amd64|arm64)
